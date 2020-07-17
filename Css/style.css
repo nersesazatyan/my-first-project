@@ -1,0 +1,46 @@
+body {
+  background-color: beige;
+}
+.btn {
+  color: beige;
+}
+.usersList {
+  padding-top: 50px;
+}
+.container {
+  margin: 0 auto;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 300px;
+  margin: 15px;
+  /* padding: 0%; */
+}
+.card > img{
+  object-fit: contain;
+  width: 100%;
+  height: 200px;
+  padding-top: 5px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.cont {
+  padding: 2px 20px;
+}
+#usercard > img {
+  margin-top: 10px;
+  width: 400px;
+}
+#usercard, #usercard2 {
+  float: left;
+}
+#usercard2 {
+  margin: 20px;
+}
